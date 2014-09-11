@@ -18,7 +18,7 @@ import quickfix.fix44.MarketDataIncrementalRefresh;
 import quickfix.fix44.MarketDataSnapshotFullRefresh;
 
 /**
- * BTCChina FIX Client
+ * BTCChina FIX Client Application
  * @author BTCChina
  */
 public class BTCCFIXClientApp  implements quickfix.Application {

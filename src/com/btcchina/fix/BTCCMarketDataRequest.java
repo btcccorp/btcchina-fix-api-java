@@ -9,7 +9,7 @@ import quickfix.field.Symbol;
 
 /**
  * MarkertData Request
- * @author BTCCHINA
+ * @author BTCChina
  */
 public class BTCCMarketDataRequest {
 	/**
