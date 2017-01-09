@@ -222,16 +222,6 @@ public class BTCCTradingRequest {
 				priceString = String.format("%f", price);
 			}
 			amountString = String.format("%f", amount);
-		}else if(market.equals("BTCLTC") || market.equals("LTCBTC"))
-		{
-			market = "LTCBTC";
-			if(price == null)
-			{
-				priceString = "";
-			}else{
-				priceString = String.format("%f", price);
-			}
-			amountString = String.format("%f", amount);		
 		}else{
 			throw new UnsupportMarketException();
 		}
@@ -268,16 +258,6 @@ public class BTCCTradingRequest {
 				priceString = String.format("%f", price);
 			}
 			amountString = String.format("%f", amount);
-		}else if(market.equals("BTCLTC") || market.equals("LTCBTC"))
-		{
-			market = "LTCBTC";
-			if(price == null)
-			{
-				priceString = "";
-			}else{
-				priceString = String.format("%f", price);
-			}
-			amountString = String.format("%f", amount);		
 		}else{
 			throw new UnsupportMarketException();
 		}

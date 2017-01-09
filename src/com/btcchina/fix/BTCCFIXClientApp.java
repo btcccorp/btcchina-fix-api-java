@@ -77,7 +77,6 @@ public class BTCCFIXClientApp  implements quickfix.Application {
 				quickfix.Message message;
 
 				// MARKET DATA INCREMENTAL REFRESH REQUEST (V)
-//				message = BTCCMarketDataRequest.marketDataIncrementalRequest("LTCBTC");	
 //				message = BTCCMarketDataRequest.marketDataIncrementalRequest("LTCCNY");	
 //				message = BTCCMarketDataRequest.marketDataIncrementalRequest("BTCCNY");	
 //				Session.lookupSession(sessionID).send(message);				
@@ -121,20 +120,14 @@ public class BTCCFIXClientApp  implements quickfix.Application {
 				    
 //				    message = tradeRequest.createNewOrderSingle(ACCESS_KEY, SECRET_KEY, Side.SELL, OrdType.LIMIT, 1001.1, 0.001, "LTCCNY"); //
 //				    message = tradeRequest.createNewOrderSingle(ACCESS_KEY, SECRET_KEY, Side.BUY, OrdType.LIMIT, 1, 0.001, "LTCCNY"); //
-			    	
-//				    message = tradeRequest.createNewOrderSingle(ACCESS_KEY, SECRET_KEY, Side.SELL, OrdType.LIMIT, 1001.1, 0.001, "LTCBTC"); //
-//				    message = tradeRequest.createNewOrderSingle(ACCESS_KEY, SECRET_KEY, Side.BUY, OrdType.LIMIT, 0.0001, 0.001, "LTCBTC"); //
-				    
+			    					    
 				    //market order sell/buy
 //				    message = tradeRequest.createNewOrderSingle(ACCESS_KEY, SECRET_KEY, Side.SELL, OrdType.MARKET, 0.0001d, "BTCCNY");
 //				    message = tradeRequest.createNewOrderSingle(ACCESS_KEY, SECRET_KEY, Side.BUY, OrdType.MARKET, 0.0001d, "BTCCNY");
 			    	
 //				    message = tradeRequest.createNewOrderSingle(ACCESS_KEY, SECRET_KEY, Side.SELL, OrdType.MARKET, 0.001d, "LTCCNY");
 //				    message = tradeRequest.createNewOrderSingle(ACCESS_KEY, SECRET_KEY, Side.BUY, OrdType.MARKET, 0.001d, "LTCCNY");
-			    	
-//				    message = tradeRequest.createNewOrderSingle(ACCESS_KEY, SECRET_KEY, Side.SELL, OrdType.MARKET, 0.001d, "LTCBTC");
-//				    message = tradeRequest.createNewOrderSingle(ACCESS_KEY, SECRET_KEY, Side.BUY, OrdType.MARKET, 0.001d, "LTCBTC");
-				    
+			    					    
 			    	// cancel an order
 //				    message = tradeRequest.createOrderCancelRequest(ACCESS_KEY, SECRET_KEY, 42664407, "BTCCNY");
 			    	
